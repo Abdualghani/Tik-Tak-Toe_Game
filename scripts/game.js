@@ -38,7 +38,7 @@ function switchPlayer() {
   activePlayerNameElement.textContent = players[activePlayer].name;
 }
 function selectGameField(event) {
-  if (event.target.tagName !== "LI" || gameIsOver === true) {
+  if (event.target.tagName !== "LI" || gameIsOver) {
     return;
   }
   const selectedField = event.target;
