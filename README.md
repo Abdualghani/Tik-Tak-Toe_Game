@@ -23,3 +23,6 @@ You don't need any complex servers to run this game. Just open the files locally
 1. Clone the repository to your machine:
    ```bash
    git clone [https://github.com/Abdualghani/Tik-Tak-Toe_Game.git](https://github.com/Abdualghani/Tik-Tak-Toe_Game.git)
+2. Or you can try it by visiting the link below:
+   ```bash
+      https://tik-tak-toe-game-two.vercel.app/
