@@ -20,7 +20,8 @@ function resetGameStatus(){
 
 function startNewGame() {
   if (players[0].name === "" || players[1] === "") {
-    alert("Please set the names for both players");
+    warningModalElement.style.display='block';
+     backdropElement.style.display = "block";
     return;
   }
 

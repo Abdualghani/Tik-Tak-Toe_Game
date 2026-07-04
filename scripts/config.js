@@ -13,6 +13,10 @@ function closePlayerConfig() {
     formElement.firstElementChild.lastElementChild.value='';
 
 }
+function closeModalFucntion(){
+    warningModalElement.style.display='none';
+     backdropElement.style.display = "none";
+}
 
 function savePlayerConfig(event) {
     event.preventDefault();

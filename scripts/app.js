@@ -14,6 +14,9 @@ const players = [
     { name: "", symbol: "O" }
 ];
 
+const warningModalElement = document.getElementById('names-not-entered-modal');
+const closeWarningModal = document.getElementById('close-modal-btn');
+
 const playerConfigOverlayElement= document.getElementById("config-overlay");
 const backdropElement=document.getElementById("backdrop");
 const formElement=document.querySelector("form");
@@ -44,3 +47,7 @@ startNewGameBtnElement.addEventListener('click',startNewGame);
 // }
 
 gameBoardElement.addEventListener('click',selectGameField);
+
+
+closeWarningModal.addEventListener('click',closeModalFucntion);
+backdropElement.addEventListener("click",closeModalFucntion);
